@@ -4,37 +4,36 @@
 
 # **Code Explanation:**
 
-**Import Libraries**
+ **Import Libraries**
+- Used nltk, sklearn, pandas, matplotlib, etc. for text processing, modeling, and evaluation.
 
-Used nltk, sklearn, pandas, matplotlib, etc. for text processing, modeling, and evaluation.
+ **Load Dataset**
 
-**Load Dataset**
+ - IMDB Reviews dataset loaded with pandas directly from a GitHub link.
 
-IMDB Reviews dataset loaded with pandas directly from a GitHub link.
+ **Text Preprocessing**
 
-**Text Preprocessing**
+- Lowercased, removed HTML tags and special characters.
 
-Lowercased, removed HTML tags and special characters.
+- Removed stopwords and applied lemmatization.
 
-Removed stopwords and applied lemmatization.
+ **Feature Engineering**
 
-**Feature Engineering**
+- Text converted into numbers using TF-IDF vectorizer (top 5000 words only).
 
-Text converted into numbers using TF-IDF vectorizer (top 5000 words only).
+ **Model Training**
 
-**Model Training**
+- Logistic Regression model trained on the data.
 
-Logistic Regression model trained on the data.
+ **Evaluation**
 
-**Evaluation**
+- Accuracy = 88.84%
 
-Accuracy = 88.84%
+- Printed classification report & confusion matrix.
 
-Printed classification report & confusion matrix.
+ **Prediction Function**
 
-**Prediction Function**
-
-You can now input any review, and it will return either “Positive” or “Negative”.
+- You can now input any review, and it will return either “Positive” or “Negative”.
 
 # **How to Run the Code:**
 
